@@ -1,0 +1,47 @@
+*
+!*/
+
+# Do not ignore git files in the root of the repo.
+!/.git*
+
+# Do not ignore current project's `.uproject`.
+!/*.uproject
+
+# Do not ignore source, config and plugins dirs.
+!/Source/**
+!/Config/**
+!/Plugins/**
+
+!/Content/**/*.uasset
+!/Content/**/*.umap
+
+!/RawContent/**/*
+
+!/Рабочие материалы/*
+
+# OS/platform generated files.
+
+ehthumbs.db
+Thumbs.db
+
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+._*
+
+*~
+.directory
+
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+
+.idea
+.vs
+.vsconfig
+
+!*.docx
+!*.md
